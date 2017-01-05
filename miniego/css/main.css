@@ -1,19 +1,24 @@
-
+/*
+fixed - "przylepia" element do aktualnej pozycji
+*/
 html {    
     font-size: 62.5%;
     background: #ccc url(../assets/tlo-1024.png) fixed no-repeat;
+    background-position: top center;
   }
 
 
 @media all and (max-width: 1024px) {
         html {            
             background: #ccc url(../assets/tlo-768.png) fixed no-repeat;
+            background-position: top center;
         }        
     }
        
     @media all and (max-width: 768px) {
         html {            
             background: #ccc url(../assets/tlo-480.png) fixed no-repeat;
+            background-position: top center;
         }        
     }
 
