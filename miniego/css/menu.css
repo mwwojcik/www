@@ -1,0 +1,25 @@
+header nav{
+    float:right;
+}
+
+header nva ul li{
+    float: left;
+}
+
+header nav ul li a{
+    display:block;
+    font-size:1.5rem;
+    color:#ff803f;
+    text-align: center;
+}
+header nav ul>li>a{
+    padding: 0 1.5rem;
+    height:4 rem;
+    line-height: 4rem;
+}
+
+header nav li>a:hover{
+    background: #f55b0c;
+    color:#170901;
+}
+
