@@ -1,25 +1,57 @@
 /*
 fixed - "przylepia" element do aktualnej pozycji
 */
+
+
+
 html {    
-    font-size: 62.5%;
+    font-size: 100%;
+    font-family: 'Merriweather', serif;
     background: #ccc url(../assets/tlo-1024.png) fixed no-repeat;
     background-position: top center;
   }
 
+p{
+    display:block;
+}
+
+.tresc{
+    //background-color: red;
+    width: 47rem;
+    height: 40rem;
+    margin: 27rem auto;
+}
+
+section{
+    margin-left: 3rem
+}
 
 @media all and (max-width: 1024px) {
         html {            
             background: #ccc url(../assets/tlo-768.png) fixed no-repeat;
             background-position: top center;
-        }        
+        }  
+        .tresc{            
+            width: 43rem;
+            height: 45rem;
+            margin: 24rem auto;
+        }
     }
        
     @media all and (max-width: 768px) {
         html {            
             background: #ccc url(../assets/tlo-480.png) fixed no-repeat;
             background-position: top center;
-        }        
+        }      
+           .tresc{            
+            width: 26rem;
+            height: 45rem;
+            margin: 15rem auto;
+        }
+        section{            
+            margin-right: 1rem;                
+            margin-left: 1rem;                
+        }
     }
 
 
