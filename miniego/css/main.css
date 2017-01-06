@@ -14,10 +14,16 @@ div{
     display:block;
 }
 
+p{
+    display: block;
+    margin :1rem;
+    line-height: 3 rem;
+}
+
 .kontener_naglowek{
-    background: #ccc url(../assets/1024/naglowek.png) fixed no-repeat;
+    background: #ccc url(../assets/1024/naglowek.png)  no-repeat;
     background-position: top center;
-    height: 440px;
+    height: 435px;
 }
 
 .kontener_glowny{
@@ -47,7 +53,7 @@ section{
 
 @media all and (max-width: 1024px) {
      .kontener_naglowek{
-    background: #ccc url(../assets/768/naglowek.png) fixed no-repeat;
+    background: #ccc url(../assets/768/naglowek.png) no-repeat;
     background-position: top center;
     height: 310px;
 }
@@ -72,13 +78,13 @@ section{
        
 @media all and (max-width: 768px) {
        .kontener_naglowek{
-    background: #ccc url(../assets/480/naglowek.png) fixed no-repeat;
+    background: #ccc url(../assets/480/naglowek.png) no-repeat;
     background-position: top center;
     height: 240px;
 }
 
 .kontener_glowny{
-    background: #ccc url(../assets/480/tresc.png) fixed repeat-y;     
+    background: #ccc url(../assets/480/tresc.png)repeat-y;     
     background-position: top center;
     min-height: 34px;
     }
