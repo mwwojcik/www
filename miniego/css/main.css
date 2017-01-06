@@ -2,11 +2,12 @@
 fixed - "przylepia" element do aktualnej pozycji
 */
 
-
+@import url('https://fonts.googleapis.com/css?family=Cardo');
 
 html {    
     font-size: 62.5%;
-    font-family: 'Merriweather', serif;
+    /*font-family: 'Merriweather', serif;*/
+font-family: 'Cardo', serif;
     
   }
 
@@ -17,7 +18,7 @@ div{
 p{
     display: block;
     margin :1rem;
-    line-height: 3 rem;
+    line-height: 2rem;
 }
 
 .kontener_naglowek{
@@ -30,10 +31,11 @@ p{
     background: #ccc url(../assets/1024/tresc.png) repeat-y;     
     background-position: top center;
     min-height: 18px;
+    padding:1rem;
     }
 
 .kontener_tresci{
-    background-color: red;    
+    /*background-color: red;    */
     margin:0 auto;
     width: 670px;    
  }
@@ -46,7 +48,7 @@ p{
 }
 
 section{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 
@@ -62,10 +64,11 @@ section{
     background: #ccc url(../assets/768/tresc.png) repeat-y;     
     background-position: top center;
     min-height: 20px;
+    padding:1rem;
     }
 
   .kontener_tresci{
-    background-color: yellow;   
+    /*background-color: yellow;   */
     width: 580px;    
  }
 
@@ -80,17 +83,18 @@ section{
        .kontener_naglowek{
     background: #ccc url(../assets/480/naglowek.png) no-repeat;
     background-position: top center;
-    height: 240px;
+    height: 250px;
 }
 
 .kontener_glowny{
     background: #ccc url(../assets/480/tresc.png)repeat-y;     
     background-position: top center;
     min-height: 34px;
+    padding:1rem;
     }
 
   .kontener_tresci{
-    background-color: orange;    
+   /* background-color: orange;    */
     margin:0 auto;
     width: 350px;    
     }
