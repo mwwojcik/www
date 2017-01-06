@@ -5,53 +5,76 @@ fixed - "przylepia" element do aktualnej pozycji
 
 
 html {    
-    font-size: 100%;
+    font-size: 62.5%;
     font-family: 'Merriweather', serif;
-    background: #ccc url(../assets/tlo-1024.png) fixed no-repeat;
-    background-position: top center;
+    
   }
 
-p{
+div{
     display:block;
 }
 
-.tresc{
-    //background-color: red;
-    width: 47rem;
-    height: 40rem;
-    margin: 27rem auto;
+.kontener_naglowek{
+    background: #ccc url(../assets/1024/naglowek.png) fixed no-repeat;
+    background-position: top center;
+    height: 430px;
 }
 
-section{
-    margin-left: 3rem
+.kontener_tresc{
+    background: #ccc url(../assets/1024/tresc.png) repeat-y;     
+    background-position: top center;
+    min-height: 18px;
+    }
+
+
+.kontener_stopka{       
+    background: #ccc url(../assets/1024/stopka.png) no-repeat;    
+    background-position: top center;   
+    height: 51px;    
 }
+
+
 
 @media all and (max-width: 1024px) {
-        html {            
-            background: #ccc url(../assets/tlo-768.png) fixed no-repeat;
-            background-position: top center;
-        }  
-        .tresc{            
-            width: 43rem;
-            height: 45rem;
-            margin: 24rem auto;
-        }
+     .kontener_naglowek{
+    background: #ccc url(../assets/768/naglowek.png) fixed no-repeat;
+    background-position: top center;
+    height: 330px;
+}
+
+.kontener_tresc{
+    background: #ccc url(../assets/768/tresc.png) repeat-y;     
+    background-position: top center;
+    min-height: 30px;
+    }
+
+
+.kontener_stopka{       
+    background: #ccc url(../assets/768/stopka.png) no-repeat;    
+    background-position: top center;   
+    height: 42px;    
+}   
     }
        
-    @media all and (max-width: 768px) {
-        html {            
-            background: #ccc url(../assets/tlo-480.png) fixed no-repeat;
-            background-position: top center;
-        }      
-           .tresc{            
-            width: 26rem;
-            height: 45rem;
-            margin: 15rem auto;
-        }
-        section{            
-            margin-right: 1rem;                
-            margin-left: 1rem;                
-        }
+@media all and (max-width: 768px) {
+       .kontener_naglowek{
+    background: #ccc url(../assets/480/naglowek.png) fixed no-repeat;
+    background-position: top center;
+    height: 245px;
+}
+
+.kontener_tresc{
+    background: #ccc url(../assets/480/tresc.png) repeat-y;     
+    background-position: top center;
+    min-height: 34px;
+    }
+
+
+.kontener_stopka{       
+    background: #ccc url(../assets/480/stopka.png) no-repeat;    
+    background-position: top center;   
+    height: 38px;    
+}
     }
 
 
