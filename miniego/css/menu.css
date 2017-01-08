@@ -1,25 +1,40 @@
-header nav{
-    float:right;
+.kontener_menu{
+    width:730px;
+    margin-top: 370px;
+    margin-left: 164px;
+    background-color:red;
+    height: 50px;
 }
 
-header nva ul li{
-    float: left;
+.menu
+{
+    background-color: #325920;
+    border-radius: 5px;
+	overflow: hidden;
+    margin: 10px;
 }
 
-header nav ul li a{
-    display:block;
-    font-size:1.5rem;
-    color:#ff803f;
-    text-align: center;
-}
-header nav ul>li>a{
-    padding: 0 1.5rem;
-    height:4 rem;
-    line-height: 4rem;
+.menu ul{
+	display: table;
+	width: 100%;
 }
 
-header nav li>a:hover{
-    background: #f55b0c;
-    color:#170901;
+.menu ul li{
+	display: table-cell;
 }
 
+.menu ul li a{
+	color: #EBF2B3;
+	height: 80px;
+	line-height: 80px;
+	display: block;
+	padding: 0 10px;
+	text-align: center;
+    font-size: 22px;
+
+}
+
+header nav.menu{
+	float: right;
+	width: 80%;
+}

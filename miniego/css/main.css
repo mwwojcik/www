@@ -7,8 +7,8 @@ fixed - "przylepia" element do aktualnej pozycji
 html {    
     font-size: 62.5%;
     /*font-family: 'Merriweather', serif;*/
-font-family: 'Cardo', serif;
-    
+    font-family: 'Cardo', serif;
+      background-color: #ccc;
   }
 
 
@@ -23,13 +23,28 @@ p{
     line-height: 2rem;
 }
 
+.kontener_glowny{
+    width:1000px;
+    margin:0 auto;  
+}
+
 .kontener_naglowek{
     background: #ccc url(../assets/1024/naglowek.png)  no-repeat;
     background-position: top center;
     height: 435px;
+    position: relative;
 }
 
-.kontener_glowny{
+.kontener_menu{
+    width:730px;     
+    background-color:red;
+    height: 50px;
+    position: absolute;
+    margin:0 auto;
+}
+
+
+.kontener_srodek{
     background: #ccc url(../assets/1024/tresc.png) repeat-y;     
     background-position: top center;
     min-height: 18px;
@@ -56,13 +71,18 @@ section{
 
 
 @media all and (max-width: 1024px) {
-     .kontener_naglowek{
+   .kontener_glowny{
+    width:740px;
+    margin:0 auto;  
+}
+    
+    .kontener_naglowek{
     background: #ccc url(../assets/768/naglowek.png) no-repeat;
     background-position: top center;
     height: 310px;
 }
 
-.kontener_glowny{
+.kontener_srodek{
     background: #ccc url(../assets/768/tresc.png) repeat-y;     
     background-position: top center;
     min-height: 20px;
@@ -82,13 +102,18 @@ section{
     }
        
 @media all and (max-width: 768px) {
-       .kontener_naglowek{
+.kontener_glowny{
+    width:450px;
+    margin:0 auto;  
+}
+    
+.kontener_naglowek{
     background: #ccc url(../assets/480/naglowek.png) no-repeat;
     background-position: top center;
     height: 250px;
 }
 
-.kontener_glowny{
+.kontener_srodek{
     background: #ccc url(../assets/480/tresc.png)repeat-y;     
     background-position: top center;
     min-height: 34px;
