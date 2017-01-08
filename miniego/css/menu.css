@@ -1,17 +1,13 @@
-.kontener_menu{
-    width:730px;
-    margin-top: 370px;
-    margin-left: 164px;
-    background-color:red;
-    height: 50px;
-}
+
 
 .menu
 {
+    
     background-color: #325920;
     border-radius: 5px;
 	overflow: hidden;
     margin: 10px;
+    width: 90%;
 }
 
 .menu ul{

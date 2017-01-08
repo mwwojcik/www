@@ -11,12 +11,6 @@ html {
       background-color: #ccc;
   }
 
-
-
-div{
-    display:block;
-}
-
 p{
     display: block;
     margin :1rem;
@@ -25,22 +19,25 @@ p{
 
 .kontener_glowny{
     width:1000px;
-    margin:0 auto;  
+    margin:0 auto;         
 }
 
 .kontener_naglowek{
     background: #ccc url(../assets/1024/naglowek.png)  no-repeat;
     background-position: top center;
-    height: 435px;
-    position: relative;
+    height: 435px;  
+    /*Uwaga ustawiam kontekst pozycjonowania dla kontener_menu*/
+    position:relative;
 }
 
-.kontener_menu{
-    width:730px;     
+.kontener_menu{   
+    /*pozycjonowany wzgledem rodzica*/
+    position:absolute;
+    margin-top:380px;
+    margin-left:170px;
+    width:650px;     
     background-color:red;
-    height: 50px;
-    position: absolute;
-    margin:0 auto;
+    height: 50px;     
 }
 
 
@@ -79,7 +76,19 @@ section{
     .kontener_naglowek{
     background: #ccc url(../assets/768/naglowek.png) no-repeat;
     background-position: top center;
-    height: 310px;
+    height: 401px;
+ /*Uwaga ustawiam kontekst pozycjonowania dla kontener_menu*/
+    position:relative;
+}
+
+.kontener_menu{   
+    /*pozycjonowany wzgledem rodzica*/
+    position:absolute;
+    margin-top:330px;
+    margin-left:90px;
+    width:550px;     
+    background-color:red;
+    height: 50px;     
 }
 
 .kontener_srodek{
@@ -98,8 +107,9 @@ section{
     background: #ccc url(../assets/768/stopka.png) no-repeat;    
     background-position: top center;   
     
-}   
-    }
+}
+    
+  
        
 @media all and (max-width: 768px) {
 .kontener_glowny{
@@ -110,8 +120,18 @@ section{
 .kontener_naglowek{
     background: #ccc url(../assets/480/naglowek.png) no-repeat;
     background-position: top center;
-    height: 250px;
+    height: 299px;
 }
+    
+.kontener_menu{
+         /*pozycjonowany wzgledem rodzica*/
+    position:absolute;
+    margin-top:260px;
+    margin-left:60px;
+    width:350px;     
+    background-color:red;
+    height: 50px;  
+    }
 
 .kontener_srodek{
     background: #ccc url(../assets/480/tresc.png)repeat-y;     
@@ -131,7 +151,19 @@ section{
     background-position: top center;   
     height: 35px;    
 }
-    }
+
+.menu_ikonka {
+    display:block;
+    background: #fff url(../assets/480/menu.svg) center no-repeat;
+    padding: 1rem;    
+    height: 3.2rem;    
+    width: 3.2rem;
+    left: 0; 
+    
+}
+
+
+}
 
 
   
