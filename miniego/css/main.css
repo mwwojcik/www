@@ -104,7 +104,7 @@ section{
  }
 
 .kontener_stopka{       
-    background: #ccc url(../assets/768/stopka.png) no-repeat;    
+    background: #ccc url(../assets/768/stopka.png) no-repeat;   
     background-position: top center;   
     
 }
@@ -154,7 +154,7 @@ section{
 
 .menu_ikonka {
     display:block;
-    background: #fff url(../assets/480/menu.svg) center no-repeat;
+    background: #ccc url(../assets/480/menu.svg) center no-repeat;
     padding: 1rem;    
     height: 3.2rem;    
     width: 3.2rem;
