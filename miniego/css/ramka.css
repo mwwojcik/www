@@ -1,4 +1,4 @@
-/* Create a series of empty pseudo-elements... */
+/* Create a series of empty pseudo-elements... 
 html:before,html:after,body:before,body:after{
     content:"";
     background:#fff;
@@ -7,7 +7,7 @@ html:before,html:after,body:before,body:after{
     z-index:5;
 }
 
-/* ...and position them! */
+ ...and position them! 
 html:before{
     height:15px;
     left:0;
@@ -32,3 +32,25 @@ body:after{
     bottom:0;
     left:0;
 }
+*/
+.kontener_tresci::before,.kontener_tresci::after{
+    content:"";
+    background:orange;   
+    display:block;
+    z-index:999;
+}
+
+.kontener_tresci::before{
+    height:15px;
+    left:0;
+    right:0;
+    top:0;
+}
+.kontener_tresci::after{
+    width:15px;
+    top:0;
+    right:0;
+    bottom:0;
+}
+
+

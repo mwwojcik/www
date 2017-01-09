@@ -1,13 +1,10 @@
 
 
 .menu
-{
-    
-    background-color: #325920;
-    border-radius: 5px;
-	overflow: hidden;
-    margin: 10px;
-    width: 90%;
+{    
+    /*background-color: #325920; */
+	overflow: hidden;   
+    width: 100%;    
 }
 
 .menu ul{
@@ -20,17 +17,43 @@
 }
 
 .menu ul li a{
-	color: #EBF2B3;
-	height: 80px;
-	line-height: 80px;
-	display: block;
-	padding: 0 10px;
+	color: #000; 
+    height: 4rem;
+    line-height: 2rem;
+	display: inline-block;
+    vertical-align: middle;
+	padding: 0 1rem;
 	text-align: center;
-    font-size: 22px;
+    font-size: 1.5rem;
+    text-decoration: none; 
 
 }
 
 header nav.menu{
-	float: right;
-	width: 80%;
+	float: left;	
+}
+
+.pomaranczowy{
+    background-color: #fbc262;
+}
+
+.ciemny_zolty{
+    background-color: #fede6b;
+}
+
+.zolty{
+    background-color: #e4ea6c;
+}
+
+.zielony{
+    background-color: #96ce9c;
+}
+.niebieski{
+    background-color: #a3d9f8;
+}
+.fioletowy{
+    background-color: #b0b0ef;
+}
+.rozowy{
+    background-color: #da91b7;
 }
