@@ -52,15 +52,18 @@ p{
 
 .kontener_glowny{
     width:1000px;
-    margin:0 auto;         
+    margin:0 auto;  
+    border: 1px solid yellow;
 }
 
 .kontener_naglowek{
-    background: #ccc url(../assets/1024/naglowek.png)  no-repeat;
+    background-image: url(../assets/1024/naglowek.png);
+    background-repeat: no-repeat;
     background-position: top center;
     height: 435px;  
     /*Uwaga ustawiam kontekst pozycjonowania dla kontener_menu*/
     position:relative;
+    z-index:10;
 }
 
 .kontener_menu{   
@@ -75,16 +78,23 @@ p{
 
 
 .kontener_srodek{
-    background: #ccc url(../assets/1024/tresc.png) repeat-y;     
-    background-position: top center;
-    min-height: 18px;
-    padding:1rem;
+    border:1px dotted green;
+    margin-top:-228px;
+    margin-left:104px;
+    margin-bottom:50px;
+    padding:1rem;    
+    position:absolute;
+    width: 872px;    
+    background-color:white;
+    z-index:9;
     }
 
 .kontener_tresci{
     /*background-color: red;    */
     margin:0 auto;
-    width: 670px;    
+    margin-top:220px;
+    width: 670px;  
+    border: 1px solid blue;
  }
 
 
