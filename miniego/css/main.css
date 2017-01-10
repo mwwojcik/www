@@ -41,7 +41,7 @@ html {
     font-size: 62.5%;
     /*font-family: 'Merriweather', serif;*/
     font-family: 'Cardo', serif;
-      background-color: #ccc;
+    background-color: #ccc;
   }
 
 p{
@@ -52,8 +52,7 @@ p{
 
 .kontener_glowny{
     width:1000px;
-    margin:0 auto;  
-    border: 1px solid yellow;
+    margin:0 auto;      
 }
 
 .kontener_naglowek{
@@ -70,15 +69,14 @@ p{
     /*pozycjonowany wzgledem rodzica*/
     position:absolute;
     margin-top:380px;
-    margin-left:170px;
-    width:720px;     
+    margin-left:155px;
+    width:750px;     
     /*background-color:red;*/
     height: 50px;     
 }
 
 
-.kontener_srodek{
-    border:1px dotted green;
+.kontener_srodek{    
     margin-top:-228px;
     margin-left:104px;
     margin-bottom:50px;
@@ -87,22 +85,18 @@ p{
     width: 872px;    
     background-color:white;
     z-index:9;
+    border:1px dotted green;
     }
 
 .kontener_tresci{
     /*background-color: red;    */
     margin:0 auto;
     margin-top:220px;
-    width: 670px;  
-    border: 1px solid blue;
+    width: 670px;      
  }
 
 
-.kontener_stopka{       
-    background: #ccc url(../assets/1024/stopka.png) no-repeat;    
-    background-position: top center;   
-    height: 51px;    
-}
+
 
 section{
     font-size: 1.6rem;
@@ -112,16 +106,18 @@ section{
 
 @media all and (max-width: 1024px) {
    .kontener_glowny{
-    width:740px;
+    width:745px;
     margin:0 auto;  
 }
     
     .kontener_naglowek{
-    background: #ccc url(../assets/768/naglowek.png) no-repeat;
+    background-image: url(../assets/768/naglowek.png);
+    background-repeat: no-repeat;
     background-position: top center;
     height: 401px;
  /*Uwaga ustawiam kontekst pozycjonowania dla kontener_menu*/
     position:relative;
+    z-index: 10;
 }
 
 .kontener_menu{   
@@ -135,22 +131,24 @@ section{
 }
 
 .kontener_srodek{
-    background: #ccc url(../assets/768/tresc.png) repeat-y;     
-    background-position: top center;
-    min-height: 20px;
-    padding:1rem;
+    border:1px dotted green;
+    margin-top:-185px;
+    margin-left:0px;
+    margin-bottom:50px;
+    padding:1rem;    
+    position:absolute;
+    width: 729px;    
+    background-color:white;
+    z-index:9;
     }
 
   .kontener_tresci{
-    /*background-color: yellow;   */
+    margin:0 auto;
+    margin-top:160px;        
     width: 580px;    
  }
 
-.kontener_stopka{       
-    background: #ccc url(../assets/768/stopka.png) no-repeat;   
-    background-position: top center;   
-    
-}
+
     
   
        
@@ -161,15 +159,19 @@ section{
 }
     
 .kontener_naglowek{
-    background: #ccc url(../assets/480/naglowek.png) no-repeat;
+    background-image: url(../assets/480/naglowek.png);
+    background-repeat: no-repeat;
     background-position: top center;
-    height: 299px;
+    height: 303px;
+ /*Uwaga ustawiam kontekst pozycjonowania dla kontener_menu*/
+    position:relative;
+    z-index: 10;
 }
     
 .kontener_menu{
          /*pozycjonowany wzgledem rodzica*/
     position:absolute;
-    margin-top:260px;
+    margin-top:275px;
     margin-left:60px;
     width:350px;     
     /*background-color:red;*/
@@ -177,16 +179,22 @@ section{
     }
 
 .kontener_srodek{
-    background: #ccc url(../assets/480/tresc.png)repeat-y;     
-    background-position: top center;
-    min-height: 34px;
-    padding:1rem;
+    border:1px dotted green;
+    margin-top:-135px;
+    margin-left:0px;
+    margin-bottom:50px;
+    padding:1rem;    
+    position:absolute;
+    width: 435px;    
+    background-color:white;
+    z-index:9;
     }
 
   .kontener_tresci{
    /* background-color: orange;    */
     margin:0 auto;
-    width: 350px;    
+    width: 350px;  
+    margin-top:160px;
     }
 
 .kontener_stopka{       
@@ -197,10 +205,10 @@ section{
 
 .menu_ikonka {
     display:block;
-    background:#fbc262 url(../assets/480/menu.svg) center no-repeat;
+    background:#ccc url(../assets/480/menu.svg) center no-repeat;
     padding: 1rem;    
-    height: 3.2rem;    
-    width: 3.2rem;
+    height: 2.5rem;    
+    width: 2.5rem;
     left: 0; 
     
 }
