@@ -1,38 +1,4 @@
 
-
-.menu
-{    
-    /*background-color: #325920; */
-	overflow: hidden;   
-    width: 100%;    
-}
-
-.menu ul{
-	display: table;
-	width: 100%;
-}
-
-.menu ul li{
-	display: table-cell;
-}
-
-.menu ul li a{
-	color: #000; 
-    height: 4rem;
-    line-height: 2rem;
-	display: inline-block;
-    vertical-align: middle;
-	padding: 0 1rem;
-	text-align: center;
-    font-size: 1.5rem;
-    text-decoration: none; 
-
-}
-
-header nav.menu{
-	float: left;	
-}
-
 .pomaranczowy{
     background-color: #fbc262;
 }
@@ -56,4 +22,68 @@ header nav.menu{
 }
 .rozowy{
     background-color: #da91b7;
+}
+
+
+.menu
+{    
+    /*background-color: #325920; */
+	overflow: hidden;   
+    width: 100%;    
+}
+
+.menu ul{
+	display: table;
+	width: 100%;
+}
+
+.menu ul li{
+	display: table-cell;   
+}
+
+.menu ul li a{
+	
+    color: #000; 
+    height: 4rem;
+    line-height: 2rem;
+	display: inline-block;
+    vertical-align: middle;
+	padding: 0rem 1rem;
+	text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none; 
+    margin-right: 0.1rem;
+
+}
+
+header nav.menu{
+	float: left;	
+}
+
+@media all and (max-width: 768px) {
+    
+    
+.menu
+{    
+    background-color: #ccc;
+	overflow: hidden;   
+    width: 100%;    
+}
+
+.menu ul{
+	display: table;
+	width: 100%;   
+}
+
+.menu ul li{
+	display: table-row;      
+    
+}
+    .menu ul li a{
+        width:100%;
+        text-align:left;
+        margin-right: 0;
+        margin-top: 1px;    
+    }
+
 }

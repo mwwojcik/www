@@ -2,7 +2,7 @@
 fixed - "przylepia" element do aktualnej pozycji
 */
 
-@import url(ramka.css)
+
 @import url('https://fonts.googleapis.com/css?family=Cardo');
 
 
@@ -102,6 +102,9 @@ section{
     font-size: 1.6rem;
 }
 
+.menu-przelacznik{
+    display:none;
+    }
 
 
 @media all and (max-width: 1024px) {
@@ -147,8 +150,12 @@ section{
     margin-top:160px;        
     width: 580px;    
  }
+    
+.menu-przelacznik{
+    display:none;
+}
 
-
+}
     
   
        
@@ -203,7 +210,7 @@ section{
     height: 35px;    
 }
 
-.menu_ikonka {
+.menu-przelacznik {
     display:block;
     background:#ccc url(../assets/480/menu.svg) center no-repeat;
     padding: 1rem;    
@@ -216,6 +223,11 @@ section{
     .menu{
         display: none;
     }
+    
+    .visible{
+        display:block;
+    }   
+    
 
 }
 
