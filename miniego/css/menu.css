@@ -111,5 +111,18 @@ header nav.menu{
         margin-right: 0;
         margin-top: 1px;    
     }
+    
+    .menu > ul li ul{        
+    display:none;     
+    }
+    
+.menu > ul li:hover ul li{     
+    display:none;
+}
+    
+    .menu > ul li:hover ul li:hover{    
+    display:none;
+}
+
 
 }
