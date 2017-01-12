@@ -32,13 +32,14 @@
     width: 100%;    
 }
 
-.menu ul{
+.menu > ul{
 	display: table;
 	width: 100%;
 }
 
-.menu ul li{
-	display: table-cell;   
+.menu > ul li{
+	display: table-cell;  
+    
 }
 
 .menu ul li a{	
@@ -57,6 +58,33 @@
 header nav.menu{
 	float: left;	
 }
+
+
+.menu > ul li ul{        
+    display:none;    
+    position:absolute;
+    padding:2px;
+}
+
+.menu > ul li ul li{    
+    display:none;
+}
+.menu > ul li:hover ul{            
+    display:table;  
+    width:40%;
+    background-color:white;
+   
+}
+
+.menu > ul li:hover ul li{     
+    display:block;
+    padding:1px;   
+}
+
+.menu > ul li:hover ul li:hover{    
+    background-color:#aaa;    
+}
+
 
 @media all and (max-width: 768px) {
     
