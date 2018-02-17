@@ -6,12 +6,12 @@
 
  header {
       background: url(../assets/naglowek.png) no-repeat ;
-      height: 200px;  
-     background-position: right;
+      height: 320px;  
+      background-color:#ccc;
     }
 
-.czerwony {
-    background-color:red;
+.karta_duza {
+    padding:20px;
 }
 
 .zielony {
