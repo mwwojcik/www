@@ -1,7 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+body{
+    font-family: 'Coiny', cursive;
+    color: #555;
+    background-color: #eee;
+   /* background-image:linear-gradient(to bottom,yellow,blue) ;
+    height:100vh;    */
+}
 
 .glowny{    
-     background-color:white;
+   padding: 10px;
+    background-color:#fff;
 }
 
  header {
@@ -14,15 +22,14 @@
     padding:20px;
 }
 
-.zielony {
-    background-color:green;
+.przezroczysty{
+    opacity: 0.6;
 }
 
-.niebieski {
-    background-color:blue;
+.przezroczysty:hover{
+    opacity: 1;
 }
 
-
-.zolty {
-    background-color:yellow;
+.niewidoczny{
+    display:none;
 }
