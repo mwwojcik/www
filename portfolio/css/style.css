@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Coiny');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 body{
-    font-family: 'Coiny', cursive;
-    color: #555;
+    font-family: 'Lato', sans-serif;
+    color: #000;
     background-color: #eee;
    /* background-image:linear-gradient(to bottom,yellow,blue) ;
     height:100vh;    */
@@ -10,11 +10,12 @@ body{
 .glowny{    
    padding: 10px;
     background-color:#fff;
+    width:1024px;
 }
 
  header {
       background: url(../assets/naglowek.png) no-repeat ;
-      height: 320px;  
+      height: 250px;  
       background-color:#ccc;
     }
 
