@@ -49,11 +49,26 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .sekcja_prezentacja{
-    padding:2em;
-    color:#e0be77;
+    padding:2em;    
     color:#974405;
 }
 
 .grupa_odsunieta{
     padding-top:1.3em;
+}
+
+.odsunieta_gora_dol{
+    padding:1.1em;
+}
+
+a{
+    display:inline;
+    text-decoration: none;    
+    color:#974405;
+}
+
+a:hover,a:active{
+    text-decoration: none;
+    display: inline;
+    color:#974405;
 }
