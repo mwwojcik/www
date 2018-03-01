@@ -1,11 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato|Coiny');
 body{
     font-family: 'Lato', sans-serif;
+    line-height: 2em;
     color: #000;
+    font-size: 14px;
     background-color: #eee;
    /* background-image:linear-gradient(to bottom,yellow,blue) ;
     height:100vh;    */
 }
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Coiny', cursive; 
+  font-size: 0.5 em;
+}
+
 
 .glowny{    
    padding: 10px;
@@ -34,3 +42,4 @@ body{
 .niewidoczny{
     display:none;
 }
+
